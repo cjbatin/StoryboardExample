@@ -15,6 +15,8 @@
 		5122268220AF16A40022178E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5122268020AF16A40022178E /* LaunchScreen.storyboard */; };
 		5122268D20AF16A40022178E /* StoryboardExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5122268C20AF16A40022178E /* StoryboardExampleTests.swift */; };
 		5122269820AF16A40022178E /* StoryboardExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5122269720AF16A40022178E /* StoryboardExampleUITests.swift */; };
+		512226AD20AF1CD70022178E /* TabOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512226AC20AF1CD70022178E /* TabOne.storyboard */; };
+		512226AF20B1EBBC0022178E /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512226AE20B1EBBC0022178E /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5122269320AF16A40022178E /* StoryboardExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5122269720AF16A40022178E /* StoryboardExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExampleUITests.swift; sourceTree = "<group>"; };
 		5122269920AF16A40022178E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512226AC20AF1CD70022178E /* TabOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabOne.storyboard; sourceTree = "<group>"; };
+		512226AE20B1EBBC0022178E /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5122267320AF169F0022178E /* StoryboardExample */ = {
 			isa = PBXGroup;
 			children = (
+				512226AC20AF1CD70022178E /* TabOne.storyboard */,
+				512226AE20B1EBBC0022178E /* Settings.storyboard */,
 				5122267420AF169F0022178E /* AppDelegate.swift */,
 				5122267620AF169F0022178E /* ViewController.swift */,
 				5122267820AF169F0022178E /* Main.storyboard */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5122268220AF16A40022178E /* LaunchScreen.storyboard in Resources */,
+				512226AD20AF1CD70022178E /* TabOne.storyboard in Resources */,
 				5122267F20AF16A40022178E /* Assets.xcassets in Resources */,
 				5122267A20AF169F0022178E /* Main.storyboard in Resources */,
+				512226AF20B1EBBC0022178E /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
