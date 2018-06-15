@@ -1,7 +1,6 @@
 # StoryboardExample
 
-An example project that accompanies my tutorial on using interface builder within teams.
-**Don't forget to link back to the tutorial.**
+An example project that accompanies my tutorial on using interface builder within teams. Tutorial: http://blog.pusher.com/interface-builder-teams/
 
 ## Getting Started
 
